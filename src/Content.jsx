@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 export default function Content() {
-    const[w,setW]=useState(0);
-    const[h,setH]=useState(0);
+    const[w,setW]=useState();
+    const[h,setH]=useState();
     const[bmi,setBIM]=useState();
      
     const culbmi=() =>{
